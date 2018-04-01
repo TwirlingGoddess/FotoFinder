@@ -1,0 +1,115 @@
+
+html {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*----------section stylings--------*/
+
+section {
+  height: 50vh;
+  width: 100%;
+  background-color: #3E2A35;
+  color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 5rem;
+  padding: 2rem 0 1rem 0;
+}
+
+h1 img {
+  height: 4rem;
+  width: 4.4rem;
+}
+
+.input-labels {
+  float: left;
+  margin-left: 25rem;
+  color: #C2B2B4;
+}
+
+.image-inputs {
+  height: 2.5rem;
+  width: 45%;
+  margin: .5rem 0 1.25rem 0;
+}
+
+.choose-add-buttons {
+  height: 3.5rem;
+  width: 15rem;
+  border: none;
+  background-color: #5B4447;
+  color: #fff;
+}
+
+.choose-add-buttons:hover {
+  background-color: #938284;
+}
+
+#choose-file {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  margin-left: 24.1rem;
+  font-size: large;
+}
+
+.add-button {
+  margin-left: 25rem;
+  font-size: large;
+}
+
+/*------------main stylings-----------*/
+main {
+  height: 50vh;
+  background-color: #C2B2B4;
+  background-size: 100%;
+  padding: 1.5rem; 
+  overflow: scroll;
+}
+
+article {
+  display: inline-block;
+  height: 80%;
+  width: 20%;
+  border: 2px solid #938284;
+  background-color: #fff;
+  color: #3E2A35;
+  padding: 1rem 0 1rem 0;
+  margin: 1.5rem;
+}
+
+h2 {
+  width: 100%;
+  overflow: scroll;
+}
+
+.new-photo {
+  height:60%;
+  width: 100%;
+  border: 1px solid black;
+}
+
+p {
+  fill: h;
+  width: 100%;
+  overflow: scroll;
+}
+
+aside {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: #5B4447;
+  padding: .5rem;
+  bottom: 0px;
+
+}
+
+aside img {
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #5B4447;
+}
