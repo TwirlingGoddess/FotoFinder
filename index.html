@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
   <section>
     <h1>FOTO<img type="logo" name="logo" src="icons/foto-finder-logo.svg" alt="Foto Finder Logo">FINDER</h1>
@@ -20,101 +21,21 @@
         <br>
         <input id="input-caption" class="image-inputs" type="text" name="caption">
         <br>
-        <label for="choose-file"></label>
-        <input id="choose-file" type="File" name="choose-file" class="choose-add-buttons">
-        <button type="submit" name="add-album" class="choose-add-buttons add-button">Add to Album</button>
+        <div class="button-container" aria-label="button-container">
+          <label for="choose-file" class="file-label">Choose File
+            <input id="choose-file" type="File" name="choose-file" class="choose-add-buttons">
+          </label>
+          <button id="submit-button" type="submit" name="add-to-album" class="choose-add-buttons add-button">Add to Album</button>
+        </div>
       </form>
   </section>
+
   <main>
-    <article>
-      <h2>Waterfall Image</h2>
-      <img src="photos/Violet-054b.jpg" alt="bookmarked photo" class="new-photo">
-      <p>Lorem ipsum dolar sit amet, consectetuer adipiscing elit.</p>
-      <aside>
-        <button type="submit" name="trash">
-        <img src="icons/delete.svg" alt="delete-icon">
-        </button>
-        <button type="icon" name="love">
-        <img src="icons/favorite.svg" alt="favorite-icon">
-        </button>
-      </aside>
-    </article>    <article>
-      <h2>Waterfall Image</h2>
-      <img src="photos/Violet-054b.jpg" alt="bookmarked photo" class="new-photo">
-      <p>Lorem ipsum dolar sit amet, consectetuer adipiscing elit.</p>
-      <aside>
-        <button type="submit" name="trash">
-        <img src="icons/delete.svg" alt="delete-icon">
-        </button>
-        <button type="icon" name="love">
-        <img src="icons/favorite.svg" alt="favorite-icon">
-        </button>
-      </aside>
-    </article>    <article>
-      <h2>Waterfall Image</h2>
-      <img src="photos/Violet-054b.jpg" alt="bookmarked photo" class="new-photo">
-      <p>Lorem ipsum dolar sit amet, consectetuer adipiscing elit.</p>
-      <aside>
-        <button type="submit" name="trash">
-        <img src="icons/delete.svg" alt="delete-icon">
-        </button>
-        <button type="icon" name="love">
-        <img src="icons/favorite.svg" alt="favorite-icon">
-        </button>
-      </aside>
-    </article>    <article>
-      <h2>Waterfall Image</h2>
-      <img src="photos/Violet-054b.jpg" alt="bookmarked photo" class="new-photo">
-      <p>Lorem ipsum dolar sit amet, consectetuer adipiscing elit.</p>
-      <aside>
-        <button type="submit" name="trash">
-        <img src="icons/delete.svg" alt="delete-icon">
-        </button>
-        <button type="icon" name="love">
-        <img src="icons/favorite.svg" alt="favorite-icon">
-        </button>
-      </aside>
-    </article>    
-    <article>
-      <h2>Waterfall Image</h2>
-      <img src="photos/Violet-054b.jpg" alt="bookmarked photo" class="new-photo">
-      <p>Lorem ipsum dolar sit amet, consectetuer adipiscing elit.</p>
-      <aside>
-        <button type="submit" name="trash">
-        <img src="icons/delete.svg" alt="delete-icon">
-        </button>
-        <button type="icon" name="love">
-        <img src="icons/favorite.svg" alt="favorite-icon">
-        </button>
-      </aside>
-    </article>
-        <article>
-      <h2>Waterfall Image</h2>
-      <img src="photos/Violet-054b.jpg" alt="bookmarked photo" class="new-photo">
-      <p>Lorem ipsum dolar sit amet, consectetuer adipiscing elit.</p>
-      <aside>
-        <button type="submit" name="trash">
-        <img src="icons/delete.svg" alt="delete-icon">
-        </button>
-        <button type="icon" name="love">
-        <img src="icons/favorite.svg" alt="favorite-icon">
-        </button>
-      </aside>
-    </article>    <article>
-      <h2>Waterfall Image</h2>
-      <img src="photos/Violet-054b.jpg" alt="bookmarked photo" class="new-photo">
-      <p>Lorem ipsum dolar sit amet, consectetuer adipiscing elit.</p>
-      <aside>
-        <button type="submit" name="trash">
-        <img src="icons/delete.svg" alt="delete-icon">
-        </button>
-        <button type="icon" name="love">
-        <img src="icons/favorite.svg" alt="favorite-icon">
-        </button>
-      </aside>
-    </article>
+
   </main>
+  
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="path/to/your/jquery.min.js"><\/script>')</script>
+  <script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>
